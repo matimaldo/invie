@@ -1,0 +1,6 @@
+Letras
+https://dev.w3.org/html5/html-author/charref
+
+
+Colores
+http://www.colorzilla.com/gradient-editor/

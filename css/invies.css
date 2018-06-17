@@ -1,0 +1,247 @@
+/*
+*{
+	
+	padding-top: 10px;
+	padding-right: 13px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	margin: 10px 13px 5px 15px;
+	border: 2px dashed red;
+}
+*/
+body{
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	background: #273b47;
+	color: white;
+	padding: 10px 20px;
+	text-align: left;
+}
+
+td{
+	padding: 20px;
+}
+
+table, th, td {
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+
+input, textarea{
+	outline: 0;
+}
+
+input:focus, textarea:focus{
+background: lightgray;
+}
+
+.button{
+	border: none;
+	border-radius: 12px;
+	color:white;
+	padding: 12px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 18px;
+	/*background: #fd324e;*/
+	background: linear-gradient(to left,#fd324e,#ff7250)
+}
+.titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 70px;
+	margin-bottom: 0;
+	margin-top: 70px;
+}
+
+.titulo span{
+	text-decoration: underline;
+}
+
+.title-a{
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.title-b{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.contenedor{
+	width: 800px;
+	margin: auto;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+.background{
+	background-image: url('../images/background.png');      /*rgb(12,12,12); rgba(12,12,12,.5);*/
+	background-size: cover; /*Mejora foto*/
+}
+
+.guitarras{
+	color: #1F313C;
+	margin-bottom: 60px;
+}
+
+.guitarras h2{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.portada{
+	color: white;
+	/*fuente y color se puede Heredar de Padre*/
+	padding: 20px;
+	height: 500px;
+}
+
+.portada button{
+	margin-bottom: 70px;
+}
+
+.menu{
+		font-size: 24px;
+		display: inline-block;
+		position: absolute;
+		right: 0;
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.menu li:before{
+content: '⌖';
+font-size: 20px;
+line-height: 20px;
+color: white;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.logotipo {
+	display: inline-block;
+	/*margin-right: 110px;*/
+	margin-left: 0px;
+}
+
+.header {
+	position: relative;
+}
+
+.guitarra{
+	margin: 10px 10px 40px 10px;
+	padding: 10px;
+	/*overflow: hidden;*/
+	border: 1px solid #1F313C;
+	border-radius: 8px;
+}
+
+.guitarra ol{
+	padding: 0;
+}
+
+.contenedor-guitarra-a{
+		padding-left: 20px;
+}
+
+.derecha{
+	float: right;
+	position: relative;
+	top: -127px;
+}
+
+.izquierda{
+	float: left;
+	position: relative;
+}
+
+.contenedor-guitarra-b{
+	margin-left: 370px;
+	padding-left: 20px;
+	position: relative;
+	bottom: 90px;
+}
+
+.footer{
+	background: #1F313C;
+	padding: 50px 10px;
+}
+.contacto{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center; 
+
+}
+
+.contacto img{
+	display: block;
+}
+.contacto strong{
+	display: block;
+}
+.contacto a{
+	color: white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0px;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario{
+	display: flex;
+	width: 400px;
+	color: white;
+}
+
+.cols1, .cols2{
+	display: flex;
+	flex-direction: column;
+}
+.cols1{
+	margin-right: 15px;
+}
+
+.cols2{
+	align-items: flex-start;
+}
+
+.cols2 .button{
+margin-top: 15px;
+}
+
+.intereses label {
+	font-size: 12px;
+
+}
+
+.formulario label, .sexo, .intereses{
+	margin-bottom: 10px;
+}
+
+.sexo{
+	margin-top: 10px;
+}
+
+.guitarra.b{
+	height: 190px;
+
+}
+.tabla{
+	margin: 50px 0;
+}
