@@ -245,3 +245,8 @@ margin-top: 15px;
 .tabla{
 	margin: 50px 0;
 }
+
+.menu li:hover {
+	transition: .3s;
+  transform: translateY(-5px);
+}
